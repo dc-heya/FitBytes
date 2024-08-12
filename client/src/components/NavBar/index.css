@@ -1,0 +1,38 @@
+/* CSS */
+.linkStyle a:link {
+	text-decoration: none;
+}
+
+.linkStyle a:visited {
+	text-decoration: none;
+}
+
+.linkStyle a:active {
+	color: none;
+}
+
+@keyframes slide-right {
+	from {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.animation-slide-right {
+	animation: slide-right 1.5s ease-out;
+}
+
+.custom-nav-link {
+	/* background-color: #549719b4; */
+	background-color: #ff867dca;
+}
+
+.custom-nav-link:focus {
+	outline: none;
+	box-shadow: none;
+}

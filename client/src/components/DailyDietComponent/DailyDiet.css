@@ -1,0 +1,59 @@
+.custom-progress-bar {
+    width: 200px;
+    height: 200px;
+}
+
+.category-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    /* margin: 10px 0; */
+    width: 50vw;
+    /* display: block; */
+
+}
+
+.custom-food-btn {
+    background-color: #ff857d;
+    color: black;
+}
+
+.custom-selected-food-btn {
+    background-color: #4ade80;
+    color: black;
+
+}
+
+.custom-btn-style {
+    width: 200px;
+    background-color: #4d4ffa;
+}
+
+.food-container-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.food-container-items-selected {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: aquamarine; */
+
+}
+
+.selected-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    overflow-y: scroll;
+    margin: 40px;
+}

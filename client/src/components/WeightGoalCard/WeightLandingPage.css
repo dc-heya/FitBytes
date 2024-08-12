@@ -1,0 +1,15 @@
+.custom-selected-btn {
+    background-color: #ff857d;
+    color: black;
+}
+
+.landing-page-weight {
+    background-color: #f7f8fc;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

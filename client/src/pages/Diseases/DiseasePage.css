@@ -1,0 +1,7 @@
+.update-disease-main {
+    background-image: url('/assets/images/update-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}

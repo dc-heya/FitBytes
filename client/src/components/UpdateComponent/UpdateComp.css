@@ -1,0 +1,15 @@
+.update-main {
+    background-image: url('/assets/images/update-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.update-form{
+    background-color: rgba(255, 255, 255, 0.771);
+    width : 80vw;
+    height: auto;
+    padding : 10px;
+    border-radius: 10px;
+}

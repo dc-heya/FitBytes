@@ -1,0 +1,28 @@
+.signup-main {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  
+}
+.signup-image{
+  display: flex;
+  align-items: flex-start;
+  max-width: 40%;
+  height:130vh;
+}
+
+
+@media (max-width: 768px) {
+  .signup-main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-image{
+    max-width: 80%;
+    height: 100%;
+  }
+}
+
+
+  

@@ -1,0 +1,24 @@
+.login-main{
+    background-image: url('/assets/images/login-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-form-main{
+    background-color: rgba(255, 255, 255, 0.771);
+    width : 30vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .login-form-main{
+        /* Add your styles for tablet and below here */
+        width: 90vw; /* For example, you might want to make the form wider on smaller screens */
+        height: auto; /* And you might want to let the height adjust automatically */
+    }
+}

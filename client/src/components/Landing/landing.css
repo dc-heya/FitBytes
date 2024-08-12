@@ -1,0 +1,14 @@
+/* landing.css */
+
+/* Add padding between text and right corner */
+.landing-text {
+  padding-right: 150px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Remove padding in responsive mode */
+  .landing-text {
+    padding-right: 0;
+  }
+}
